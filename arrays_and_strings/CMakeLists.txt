@@ -1,0 +1,7 @@
+
+
+add_library(StringAllUniqueCharacters string_all_unique_characters.cpp string_all_unique_characters.h)
+
+add_executable(StringAllUniqueCharactersTest string_all_unique_characters_test.cpp)
+target_link_libraries(StringAllUniqueCharactersTest StringAllUniqueCharacters Catch)
+
